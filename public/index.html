@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46332195-11"></script>
+	<!-- <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script> -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-46332195-11');
+	</script>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script> -->
+	<!-- <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" /> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	
+
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link id="manifest" rel="manifest" href="manifest.json">
+    <!-- <link id="apple-touch-icon" rel="apple-touch-icon" href="https://betaserver.icgc.cat/marnaton/cadaques/marnaton_capture.png"> -->
+    <meta name="theme-color" content="#000000">
+
+
+	<meta name="author" content="Institut Cartogràfic i Geològic de Catalunya" />
+	<meta property="fb:app_id" content="620717167980164" />
+	<meta property="og:title" content="Capes d’informació del Mapa Geològic de Catalunya 1:25 000" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image"
+		content="https://betaserver.icgc.cat/informaciogeologica/visor_info_geologica.png" />
+	<!-- <meta property="og:image:type" content="image/png" /> -->
+	<meta property="og:url" content="https://betaserver.icgc.cat/visor-info-geologica//" />
+	<meta property="og:description" content="Institut Cartogràfic i Geològic de Catalunya" />
+	<!-- <meta name="description" content="Capes d’informació del Mapa Geològic 1:25 000" /> -->
+	<meta name="robots" content="index,follow" />
+	<meta name="description" content="Informació Geològica">
+	<meta name="keywords" content="geologia, Catalunya, visor">
+  
+	<meta name="robots" content="index,follow">
+	<meta name="geo.region" content="ES-CT" />
+	<meta name="geo.placename" content="Barcelona" />
+	<meta name="geo.position" content="41.363892,2.186279" />
+	<meta name="language" content="ca" />
+
+	<title>Capes d'Informació Geològica</title>
+	<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Website",
+            "url": "https://betaserver.icgc.cat/informaciogeologica/",
+            "name": "Informació geològica 1:25.000",
+            "image": "https://betaserver.icgc.cat/informaciogeologica/images/fons_geologic.png",
+            "author": "Institut Cartogràfic i Geològic de Catalunya",
+            "description": "Capes d’informació del Mapa Geològic de Catalunya 1:25.000"
+        }
+    </script>
+
+
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' />
+	<!-- <script src='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script> -->
+	<!-- <link href='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' /> -->
+	<link rel='icon' type='image/png' href='favicon.png'>
+	<link rel='stylesheet' href='global.css'>
+	<link rel='stylesheet' href='build/bundle.css'> 
+
+	<script defer src='build/bundle.js'></script>
+</head>
+
+
+<body>
+	<script>
+        if (!navigator.serviceWorker.controller) {
+            navigator.serviceWorker.register("serviceworker.js").then(function(reg) {
+                // console.log("Service worker has been registered for scope: " + reg.scope);
+            });
+        }
+       </script>
+</body>
+
+</html>

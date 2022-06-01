@@ -1,0 +1,4039 @@
+{
+    "version": 8,
+  
+    "center": [1.537786, 41.837539],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+      "infogeo": {
+        "type": "vector",
+        "tiles": [
+          "https://tilemaps.icgc.cat/tileserver/tileserver.php/infogeo_v7/{z}/{x}/{y}.pbf"
+        ]
+      }
+    },
+    "sprite": "https://tilemaps.icgc.cat/tileserver/geoindex/infogeo/style/sprites/sprite",
+    "glyphs": "https://tilemaps.icgc.cat/tileserver/glyphs/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CACe",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#00855B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CACe1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#009D5B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CACe2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#64BC4A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CACeca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#AACDA9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIA",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#35B45A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAbca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D0D08C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAbca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CIAbca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#7CC372"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAcm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#99D4C0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAcmc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#22B78E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAcml/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E2E324"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAcml/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CIAcml/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAcmr",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#7BBC89"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A0AB9B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C2A494"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAlg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E9E084"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAmcb",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D4E05E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAmcl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E8EDAE"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAmfl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B0DEDB"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAmg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B7C29A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAml",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C6DD81"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAp",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                19
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#2E9441"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAp1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                20
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#34A448"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIAp2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                21
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#80A635"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApAbx",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                22
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A65074"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApAm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                23
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C7DC6C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                24
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#76A639"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApcab",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                25
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B8D098"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApcam",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                26
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#94B79B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApcamc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                27
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#94B693"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApcm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#4CA84C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                29
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E2E324"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIApmc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                30
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#8BB94C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                31
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A8B045"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBcab",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                32
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#4EA14B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBeB",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                33
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#009C6B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBeVcl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                34
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#5FBC6B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBeb/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                35
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {}
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIBeb/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                35
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CIBeb/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIHB",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                36
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#00844D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CIVHca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                37
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A6CE3D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CId",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                38
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#3A9F4D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCM",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                39
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B2DDC9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCM_c/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                40
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B2DDC9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCM_c/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                40
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCM_c/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCM_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                41
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B2DDC9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCM_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                41
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCM_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCMcb",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                42
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9CD2AE"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCMcm1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                43
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#82BCB7"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCMgc1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                44
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#8EC6B2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCMms",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                45
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#AFDFE4"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCcb1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                46
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#8FCEA5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCcb2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                47
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A7D7B7"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCe",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                48
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9CCC68"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCeTcf",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                49
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#56BE95"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCeca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                50
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#89B986"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCecad",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                51
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#8AC768"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCecm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                52
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C8DB54"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCem",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                53
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C3C59A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                54
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#CAE7DC"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCmc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                55
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#0CADA1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCms",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                56
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#75CEE1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoS1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                57
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#00AD8F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoS2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                58
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#71C6A8"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoS3",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                59
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#66C29B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoScc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                60
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#75C6A5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoScm/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                61
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#75C6A5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoScm/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                61
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCoScm/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoSm/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                62
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#8CCFB7"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoSm/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                62
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCoSm/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCoSm/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                62
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCoSm/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCom",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                63
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#66C29B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSComc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                64
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E6EFCB"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                65
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#63BCBA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop10",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                66
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#CDD3B8"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop11",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                67
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9BCABB"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                68
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#00ADB5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop3",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                69
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#55C6D8"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop3_m/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                70
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#55C6D8"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop3_m/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                70
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCop3_m/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop3_m/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                70
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCop3_m/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop4",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                71
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#14B276"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop5/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                72
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DEE688"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop5/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                72
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCop5/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop5/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                72
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSCop5/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop6",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                73
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#7FC25F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop7",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                74
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C4DE92"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop8",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                75
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#96CB71"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSCop9",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                76
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C0E1C0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMag",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                77
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E09BA2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMag_c/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                78
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E09BA2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMag_c/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                78
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMag_c/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMag_g/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                79
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E09BA2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMag_g/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                79
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMag_g/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                80
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#64C2A5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMc3/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                81
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#97D4C9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMc3/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                81
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMc3/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMcg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                82
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B0C6D2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMcm2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                83
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BFE2CA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMcm3",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                84
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#86D1D9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMcp",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                85
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A6D8C0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMg4/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                86
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BDE3DC"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMg4/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                86
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMg4/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMgc2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                87
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C0CFC0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMgt",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                88
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#80CBB7"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                89
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F48688"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_c/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                90
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F48688"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_c/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                90
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMlg_c/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                91
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F48688"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                91
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMlg_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_g/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                92
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F48688"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMlg_g/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                92
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMlg_g/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMllg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                93
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E1B9CC"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm2/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                94
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BFE2CA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                94
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMm2/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                94
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMm2/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm2_g/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                95
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BFE2CA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm2_g/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                95
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMm2_g/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm3/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                96
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#97D4C9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm3/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                96
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMm3/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMm3/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                96
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMm3/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMmc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                97
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B3DDC0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMmg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                98
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#45C1C7"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMmlc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                99
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#68C295"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMq2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                100
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BFE2CA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMq2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                100
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMq2/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMq3/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                101
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D7ECDD"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMq3/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                101
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMq3/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMq3/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                101
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSMq3/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSMqc2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                102
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A2CBC1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSPPag",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                103
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F27E7F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSPPg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                104
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F2756F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSPPlcg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                105
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F5989E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSPPlcg_g/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                106
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F5989E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSPPlcg_g/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                106
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSPPlcg_g/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSS",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                107
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#91D1C0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCcl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                108
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#86BA9E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCd",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                109
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9FD5B9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCd_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                110
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9FD5B9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCd_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                110
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSCd_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                111
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B8B997"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCga/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                112
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A5D9C9"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCga/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                112
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSCga/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSClg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                113
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D8CEB4"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSClgc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                114
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A9D6AE"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSCm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                115
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#CCE6CA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                116
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#BBD86D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSScc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                117
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C2CDA6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSgm/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                118
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DBE9AE"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSgm/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                118
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSgm/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSgm_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                119
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DAD6A6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSgm_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                119
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSgm_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSm",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                120
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DAD6A6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                121
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9FC19E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                121
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSmb/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                121
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSmb/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                122
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9FC19E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                122
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSmb_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb_g/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                123
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9FC19E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmb_g/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                123
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSmb_g/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                124
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9EC2A6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmc_ca/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                125
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#9EC2A6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSSmc_ca/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                125
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSSmc_ca/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CST",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                126
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#00B09C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTCo",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                127
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#5FC4B8"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTCobrf",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                128
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E8E1A0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTCoce",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                129
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A6CEC3"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTColo",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                130
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DAC38E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTComg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                131
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A9D6A5"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTComr/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                132
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D9EACA"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTComr/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                132
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSTComr/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSTComr/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                132
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CSTComr/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CSlc",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                133
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#247A67"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                134
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#25ACAE"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMcg/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                135
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A2A38A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMcg/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                135
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CaMcg/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMcg/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                135
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/CaMcg/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMli",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                136
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#008BB3"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMp",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                137
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E8D782"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMpg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                138
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B9B07E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMpgca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                139
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#3DB5B1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaMr",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                140
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A4D9D1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaP3rb",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                141
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D0D88F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaP3rlg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                142
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A1B98B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/CaPelag",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                143
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E77B6D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddgb/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                144
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#B293C4"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddgb/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                144
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ddgb/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddgb/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                144
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ddgb/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddh/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                145
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#784599"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddh/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                145
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ddh/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ddh/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                145
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ddh/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/DeEEcam",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                146
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D5806A"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/DeEEl",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                147
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A57F6F"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/DeEElca",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                148
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#C39B76"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Decap",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                149
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#DF8A80"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dgbto/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                150
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#6469AF"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dgbto/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                150
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dgbto/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dgbto/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                150
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dgbto/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dmghp/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                151
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dmghp/2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dmghp/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                151
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#713C95"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dmghp/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                151
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dmghp/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpmd",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                152
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#934589"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqd/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                153
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A36993"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqd/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                153
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqd/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqd/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                153
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqd/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqdh/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                154
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A36993"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqdh/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                154
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqdh/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqdh/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                154
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqdh/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqmd/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                155
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#A35795"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqmd/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                155
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqmd/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dpqmd/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                155
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dpqmd/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dqd",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                156
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#713C95"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dqdh/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                157
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#713C95"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dqdh/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                157
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dqdh/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Dqdh/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                157
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Dqdh/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gap/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                158
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F6E256"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gap/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                158
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gap/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gap/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                158
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gap/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gapg",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                159
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F4DC81"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gapp/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                160
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F6E256"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gapp/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                160
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gapp/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gapp/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                160
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gapp/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gbh/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                161
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#5881C1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gbh/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                161
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gbh/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gbh/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                161
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gbh/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gd/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                162
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#EF522B"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gd/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                162
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gd/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gd/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                162
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gd/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/GdDd/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                163
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#D966A6"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/GdDd/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                163
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/GdDd/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/GdDd/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                163
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/GdDd/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gfe/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                164
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#FEECA0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gfe/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                164
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gfe/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Gfe/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                164
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Gfe/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggbi/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                165
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#EE462C"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggbi/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                165
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggbi/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggbi/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                165
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggbi/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                166
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#EC187E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                166
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggd/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                166
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggd/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd2/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                167
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#ED3081"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                167
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggd2/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggd2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                167
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggd2/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb1/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                168
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdb1/2"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb1/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                168
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F27E9D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb1/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                168
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdb1/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb2/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                169
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F27E9D"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                169
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdb2/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdb2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                169
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdb2/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbi/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                170
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F05E74"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbi/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                170
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbi/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbi/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                170
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbi/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbl2/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                171
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F074A4"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbl2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                171
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbl2/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbl2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                171
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbl2/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbm/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                172
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#E99FAF"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbm/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                172
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbm/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdbm/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                172
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdbm/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdf/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                173
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#EC187E"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdf/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                173
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdf/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdf/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                173
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdf/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdfk/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                174
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#F387A1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdfk/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                174
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdfk/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdfk/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                174
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdfk/0"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdh",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                175
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#ED3081"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdh2/2",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                176
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-color": "#ED3081"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdh2/1",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                176
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdh2/1"
+            }
+        },
+        {
+            "id": "Basament prequaternari/Unitats geològiques del basament/Ggdh2/0",
+            "type": "fill",
+            "source": "infogeo",
+            "source-layer": "Unitats geològiques del basament",
+            "filter": [
+                "==",
+                "_symbol",
+                176
+            ],
+             "layout": { "visibility": "visible"}, "visibility": "visible"},
+            "paint": {
+                "fill-pattern": "Basament prequaternari/Unitats geològiques del basament/Ggdh2/0"
+            }
+        }
+        
+  ]
+}

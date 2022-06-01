@@ -1,0 +1,124 @@
+// Nothing here. Just use the default theme.
+
+@import "@material/theme/color-palette";
+
+// Svelte Colors!
+$mdc-theme-primary: #4400ff;
+$mdc-theme-secondary: #676778;
+// Other Svelte color: #40b3ff
+
+$mdc-theme-background: #fff;
+$mdc-theme-surface: #fff;
+
+$mdc-theme-error: $material-color-red-900;
+$mdc-theme-on-primary:#fff;
+
+* :global(.mdc-drawer--modal, .mdc-drawer-scrim) {
+  /* This is not needed for a page-wide modal. */
+  position: absolute;
+}
+* :global(.app-content) {
+  flex: auto;
+  overflow: auto;
+  position: relative;
+  flex-grow: 1;
+}
+
+
+    .mdc-text-field {
+      border-radius: 4px 4px 0 0;
+      display: block;
+      /* box-sizing: border-box; */
+      height: 56px;
+  }
+  
+    .mdc-text-field {
+      --mdc-ripple-fg-size: 0;
+      --mdc-ripple-left: 0;
+      --mdc-ripple-top: 0;
+      --mdc-ripple-fg-scale: 1;
+      --mdc-ripple-fg-translate-end: 0;
+      --mdc-ripple-fg-translate-start: 0;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      border-radius: 5px;
+      /* display: inline-flex; */
+      position: relative;
+      /* box-sizing: border-box; */
+      height: 40px!important;
+      overflow: hidden;
+      background-color: white !important;
+      will-change: opacity,transform,color;
+  }
+
+  header {
+    position: fixed;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    height: 3rem;
+      // background: #1A4971 !important;
+    // background: black !important;
+    background: #fed601!important;
+    border-bottom: #d8821d;
+    border-bottom-style: solid;
+    color:black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0 2px 6px rgba(49, 49, 45, 0.86);
+  }
+  .top-app-bar-container {
+    overflow: auto;
+    display: inline-block;
+  }
+  .flexy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexor {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .flexor-content {
+    flex-basis: 0;
+    height: 0;
+    flex-grow: 1;
+    overflow: auto;
+  }
+
+  .mdc-text-field--with-leading-icon .mdc-text-field__icon, .mdc-text-field--with-trailing-icon .mdc-text-field__icon {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-container {
+  position: relative;
+  background-color: #ffffff;
+  width: 90vw;
+  margin: 1rem auto 0.2rem;
+  box-shadow: 0 3px 10px #555;
+}
+
+
+#map {
+  width: 100%;
+  height: 100%; 
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+
+}

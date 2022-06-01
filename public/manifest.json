@@ -1,0 +1,23 @@
+{
+	"name": "Capes d'Informació Geològica",
+	"short_name": "InformacióGeològica",
+	"theme_color": "#5CC8D5",
+	"background_color": "#fafafa",
+	"display": "standalone",
+	"scope": "/informaciogeologica/",
+	"start_url": "/informaciogeologica/",
+	"icons": [
+		{
+			"src": "https://betaserver.icgc.cat/informaciogeologica/images/icons/icono250_infogeo.jpg",
+			"sizes": "250x250",
+			"type": "image/png",
+			"purpose": "maskable any"
+		},
+		{
+			"src": "https://betaserver.icgc.cat/informaciogeologica/images/icons/icono512_infogeo.jpg",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable any"
+		}
+	]
+}

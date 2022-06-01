@@ -1,0 +1,41 @@
+{
+  "name": "svelte-template-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@geostarters/eslint-config": "^0.0.1",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-json": "^4.0.3",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "mapbox-gl": "^2.0.0",
+    "node-sass": "^4.14.1",
+    "rollup": "^1.20.0",
+    "rollup-plugin-css-only": "^2.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-postcss": "^2.0.6",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "simple-svelte-autocomplete": "^1.1.2",
+    "svelte": "^3.0.0",
+    "svelte-atoms": "0.0.27",
+    "svelte-material-ui": "^1.1.0",
+    "svelte-share-buttons-component": "^1.2.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "default-passive-events": "^2.0.0",
+    "mapbox-gl-compare": "^0.4.0",
+    "mapbox-gl-controls": "^1.6.4",
+    "proj4": "^2.6.2",
+    "sirv-cli": "^0.4.4",
+    "svelte-autocomplete": "0.0.4",
+    "svelte-fa": "^2.3.3",
+    "svelte-materialify": "^0.3.11"
+  }
+}
